@@ -60,9 +60,6 @@ endif()
 # TP3b_FILES at CMakeLists.txt:13 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/jigs2/CLionProjects/DA_TP_Classes/TP3b/*.cpp")
 set(OLD_GLOB
-  "C:/Users/jigs2/CLionProjects/DA_TP_Classes/TP3b/TestAux.cpp"
-  "C:/Users/jigs2/CLionProjects/DA_TP_Classes/TP3b/ex1.cpp"
-  "C:/Users/jigs2/CLionProjects/DA_TP_Classes/TP3b/ex2.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
