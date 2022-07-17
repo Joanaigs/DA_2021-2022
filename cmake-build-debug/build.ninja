@@ -348,6 +348,34 @@ build CMakeFiles/TP3b.dir/main.cpp.obj: CXX_COMPILER__TP3b_Debug C$:/Users/jigs2
   OBJECT_DIR = CMakeFiles\TP3b.dir
   OBJECT_FILE_DIR = CMakeFiles\TP3b.dir
 
+build CMakeFiles/TP3b.dir/TP3b/TestAux.cpp.obj: CXX_COMPILER__TP3b_Debug C$:/Users/jigs2/CLionProjects/DA_TP_Classes/TP3b/TestAux.cpp || cmake_object_order_depends_target_TP3b
+  DEP_FILE = CMakeFiles\TP3b.dir\TP3b\TestAux.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googletest/include -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googletest -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googlemock/include -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googlemock
+  OBJECT_DIR = CMakeFiles\TP3b.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP3b.dir\TP3b
+
+build CMakeFiles/TP3b.dir/TP3b/ex1.cpp.obj: CXX_COMPILER__TP3b_Debug C$:/Users/jigs2/CLionProjects/DA_TP_Classes/TP3b/ex1.cpp || cmake_object_order_depends_target_TP3b
+  DEP_FILE = CMakeFiles\TP3b.dir\TP3b\ex1.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googletest/include -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googletest -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googlemock/include -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googlemock
+  OBJECT_DIR = CMakeFiles\TP3b.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP3b.dir\TP3b
+
+build CMakeFiles/TP3b.dir/TP3b/ex2.cpp.obj: CXX_COMPILER__TP3b_Debug C$:/Users/jigs2/CLionProjects/DA_TP_Classes/TP3b/ex2.cpp || cmake_object_order_depends_target_TP3b
+  DEP_FILE = CMakeFiles\TP3b.dir\TP3b\ex2.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googletest/include -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googletest -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googlemock/include -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googlemock
+  OBJECT_DIR = CMakeFiles\TP3b.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP3b.dir\TP3b
+
+build CMakeFiles/TP3b.dir/TP3b/moonshackA.cpp.obj: CXX_COMPILER__TP3b_Debug C$:/Users/jigs2/CLionProjects/DA_TP_Classes/TP3b/moonshackA.cpp || cmake_object_order_depends_target_TP3b
+  DEP_FILE = CMakeFiles\TP3b.dir\TP3b\moonshackA.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googletest/include -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googletest -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googlemock/include -isystem C:/Users/jigs2/CLionProjects/DA_TP_Classes/lib/googletest-master/googlemock
+  OBJECT_DIR = CMakeFiles\TP3b.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP3b.dir\TP3b
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TP3b
@@ -356,7 +384,7 @@ build CMakeFiles/TP3b.dir/main.cpp.obj: CXX_COMPILER__TP3b_Debug C$:/Users/jigs2
 #############################################
 # Link the executable TP3b.exe
 
-build TP3b.exe: CXX_EXECUTABLE_LINKER__TP3b_Debug CMakeFiles/TP3b.dir/main.cpp.obj | lib/libgtest_maind.a lib/libgmock_maind.a lib/libgmockd.a lib/libgtestd.a || lib/libgmock_maind.a lib/libgmockd.a lib/libgtest_maind.a lib/libgtestd.a
+build TP3b.exe: CXX_EXECUTABLE_LINKER__TP3b_Debug CMakeFiles/TP3b.dir/main.cpp.obj CMakeFiles/TP3b.dir/TP3b/TestAux.cpp.obj CMakeFiles/TP3b.dir/TP3b/ex1.cpp.obj CMakeFiles/TP3b.dir/TP3b/ex2.cpp.obj CMakeFiles/TP3b.dir/TP3b/moonshackA.cpp.obj | lib/libgtest_maind.a lib/libgmock_maind.a lib/libgmockd.a lib/libgtestd.a || lib/libgmock_maind.a lib/libgmockd.a lib/libgtest_maind.a lib/libgtestd.a
   FLAGS = -g
   LINK_LIBRARIES = lib/libgtest_maind.a  lib/libgmock_maind.a  lib/libgmockd.a  lib/libgtestd.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TP3b.dir

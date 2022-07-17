@@ -17,7 +17,7 @@ add_executable(TP1 main.cpp ${TP1_FILES})
 add_executable(TP2a main.cpp ${TP2a_FILES})
 add_executable(TP2b main.cpp ${TP2b_FILES})
 add_executable(TP3a main.cpp ${TP3a_FILES})
-add_executable(TP3b main.cpp ${TP3b_FILES})
+add_executable(TP3b main.cpp ${TP3b_FILES} TP3b/moonshackA.cpp)
 
 
 target_link_libraries(TP1 gtest_main gmock_main)
